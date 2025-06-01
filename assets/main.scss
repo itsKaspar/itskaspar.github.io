@@ -2,6 +2,21 @@
 ---
 @import "minima";
 
+/* Custom font declaration */
+@font-face {
+  font-family: 'BerlinTypeBold';
+  src: url('/fonts/BerlinType-Bold.otf') format('opentype');
+  font-weight: bold;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'BerlinType';
+  src: url('/fonts/BerlinType-Regular.otf') format('opentype');
+  font-weight: bold;
+  font-display: swap;
+}
+
 .mono {
   font-family: 'Courier New', monospace;
   font-size: 0.9em;
@@ -26,20 +41,20 @@ a:hover {
   font-size: 3em;
   margin-top: 0.5em !important;
   margin-bottom: 0.5em !important;
-  font-family: 'Helvetica Neue', 'Arial', sans-serif !important;
+  font-family: 'BerlinTypeBold', 'Helvetica Neue', 'Arial', sans-serif !important;
   color: inherit !important; /* Keeps original color, overrides green link styling */
 }
 
 /* Post title styling */
 .post-title {
   color: #666666 !important;
-  font-family: 'Helvetica Neue', 'Arial', sans-serif !important;
+  // font-family: 'BerlinTypeBold', 'Helvetica Neue', 'Arial', sans-serif !important;
   font-size: 1.8rem !important; /* Smaller than default */
 }
 
 /* Home page post titles in list */
 .post-list .post-link {
-  font-family: 'Helvetica Neue', 'Arial', sans-serif !important;
+  // font-family: 'BerlinTypeBold', 'Helvetica Neue', 'Arial', sans-serif !important;
 }
 
 /* Footer spacing balance */
