@@ -47,13 +47,16 @@ a:hover {
 }
 
 .site-title:hover {
-  color: inherit !important; /* Prevents hover color change */
+  color: inherit !important;
+  text-decoration: underline !important;
+  text-decoration-thickness: 8px !important; /* Adjust thickness as needed */
 }
 
 /* Post title styling */
 .post-title {
   color: #666666 !important;
   // font-family: 'BerlinTypeBold', 'Helvetica Neue', 'Arial', sans-serif !important;
+  font-family: Georgia, 'Times New Roman', serif !important;
   font-size: 1.8rem !important; /* Smaller than default */
 }
 
@@ -65,6 +68,7 @@ a:hover {
 
 /* Home page post titles in list */
 .post-list .post-link {
+  font-family: Georgia, 'Times New Roman', serif !important;
   // font-family: 'BerlinTypeBold', 'Helvetica Neue', 'Arial', sans-serif !important;
 }
 
