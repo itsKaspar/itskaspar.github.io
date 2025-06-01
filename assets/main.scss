@@ -81,7 +81,14 @@ a:hover {
 /* Social table styling */
 .social-table {
   border-collapse: separate;
-  border-spacing: 0.5em 0.3em; /* horizontal and vertical spacing */
+  border-spacing: 0.5em 0.3em;
+  border: none; /* Remove table border */
+  margin-left: auto; /* Push table to the right */
+}
+
+.social-table td {
+  border: none; /* Remove cell borders */
+  text-align: left; /* Keep content left-aligned */
 }
 
 .emoji-col {
@@ -97,7 +104,11 @@ a:hover {
 }
 
 .social-table td:last-child {
-  font-size: 0.9em; /* Slightly smaller links */
+  font-size: 0.9em;
+}
+
+.social-table td:last-child a {
+  font-size: inherit;
 }
 
 .social-table td:last-child a {
