@@ -2,21 +2,35 @@
 ---
 @import "minima";
 
+.mono {
+  font-family: 'Courier New', monospace;
+  font-size: 0.9em;
+}
+
 /* Your custom styles go here */
 body {
     font-family: Georgia, serif;
 }
 
+/* Site title spacing */
 .site-title {
-    font-size: 3em;
-}
-.post-title {
-    color: #53d28f;
+font-size: 3em;
+  margin-top: 1.2em !important;
+  margin-bottom: 1.2em !important;
 }
 
-.mono {
-  font-family: 'Courier New', monospace;
-  font-size: 0.9em;
+/* Link colors */
+a {
+  color: #28a745 !important; /* Your green color */
+}
+
+a:hover {
+  color: #dc3545 !important; /* Complementary red color - adjust as needed */
+}
+
+/* Non-link post titles */
+.post-title {
+  color: #666666 !important;
 }
 
 /* Footer layout adjustments */
@@ -24,7 +38,7 @@ body {
   display: flex;
   justify-content: space-between;
   align-items: flex-start;
-  max-width: $content-width; /* Uses the same width as your articles */
+  max-width: $content-width;
   margin: 0 auto;
 }
 
@@ -40,6 +54,14 @@ body {
 .footer-col-3 {
   text-align: right;
 }
+
+.footer-col-3 .social-media-list {
+  margin: 0;
+  list-style: none;
+  text-align: left; /* This keeps the list items left-aligned within the right column */
+  display: inline-block; /* This allows the whole list to be right-aligned as a block */
+}
+
 
 .footer-col-3 .social-media-list {
   margin: 0;
