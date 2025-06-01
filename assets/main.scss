@@ -74,41 +74,28 @@ a:hover {
   padding-bottom: 10px !important;
 }
 
-/* Footer layout adjustments */
-.footer-col-wrapper {
-  display: flex;
-  justify-content: space-between;
-  align-items: flex-start;
-  max-width: $content-width;
-  margin: 0 auto;
+/* Social table styling */
+.social-table {
+  border-collapse: separate;
+  border-spacing: 0.5em 0.3em; /* horizontal and vertical spacing */
 }
 
-.footer-col-1, .footer-col-3 {
-  width: auto;
-  flex: 1;
+.emoji-col {
+  width: 1.5em;
+  text-align: center;
 }
 
-.footer-col-1 {
-  text-align: left;
+.mono {
+  font-family: 'Courier New', monospace;
+  font-size: 0.9em;
+  width: 3em;
+  padding-right: 0.5em;
 }
 
-.footer-col-3 {
-  text-align: right;
+.social-table td:last-child {
+  font-size: 0.9em; /* Slightly smaller links */
 }
 
-.footer-col-3 .social-media-list {
-  margin: 0;
-  list-style: none;
-  text-align: left; /* This keeps the list items left-aligned within the right column */
-  display: inline-block; /* This allows the whole list to be right-aligned as a block */
+.social-table td:last-child a {
+  font-size: inherit;
 }
-
-.footer-col-3 .social-media-list li {
-  margin-bottom: 0.2em; /* Space between social items */
-}
-
-/* Space after emoji in social links */
-.social-media-list li::first-letter {
-  margin-right: 0.3em;
-}
-
