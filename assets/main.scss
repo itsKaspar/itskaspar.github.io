@@ -24,6 +24,11 @@
   font-display: swap;
 }
 
+html, body {
+  margin: 0 !important;
+  padding: 0 !important;
+}
+
 /* Your custom styles go here */
 body {
     font-family: 'BerlinType', 'Helvetica Neue', 'Arial', sans-serif !important;
@@ -62,6 +67,12 @@ a:hover {
   font-size: 1.8rem !important; /* Smaller than default */
 }
 
+.post-list .post-excerpt, 
+.post-list p {
+    font-family: 'Crimson', Georgia, 'Times New Roman', serif !important;
+  // line-height: 1.6;
+}
+
 /* Post content text styling */
 .post-content {
   font-family: 'Crimson', Georgia, 'Times New Roman', serif !important;
@@ -87,11 +98,26 @@ a:hover {
 }
 
 .footer-col-wrapper {
-  margin-bottom: 0 !important;
+  margin: 0 !important;
+  padding-bottom: 0 !important;
 }
 
 /* Remove any body/html bottom margins */
 body {
+  margin-bottom: 0 !important;
+}
+
+/* Also check if there's spacing on the social table itself */
+.social-table {
+  margin-bottom: 0 !important;
+}
+
+/* Sometimes the page wrapper has bottom margin */
+.page-content {
+  margin-bottom: 0 !important;
+}
+
+main {
   margin-bottom: 0 !important;
 }
 
