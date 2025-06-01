@@ -24,7 +24,8 @@
 
 /* Your custom styles go here */
 body {
-    font-family: Georgia, serif;
+    font-family: 'BerlinType', 'Helvetica Neue', 'Arial', sans-serif !important;
+    //font-family: Georgia, serif;
 }
 
 /* Link colors */
@@ -54,6 +55,12 @@ a:hover {
   color: #666666 !important;
   // font-family: 'BerlinTypeBold', 'Helvetica Neue', 'Arial', sans-serif !important;
   font-size: 1.8rem !important; /* Smaller than default */
+}
+
+/* Post content text styling */
+.post-content {
+  font-family: Georgia, 'Times New Roman', serif !important;
+  // line-height: 1.6;
 }
 
 /* Home page post titles in list */
@@ -96,8 +103,12 @@ a:hover {
   display: inline-block; /* This allows the whole list to be right-aligned as a block */
 }
 
-
-.footer-col-3 .social-media-list {
-  margin: 0;
-  list-style: none;
+.footer-col-3 .social-media-list li {
+  margin-bottom: 0.2em; /* Space between social items */
 }
+
+/* Space after emoji in social links */
+.social-media-list li::first-letter {
+  margin-right: 0.3em;
+}
+
