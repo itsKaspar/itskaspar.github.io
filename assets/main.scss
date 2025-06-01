@@ -67,14 +67,9 @@ a:hover {
   font-size: 1.8rem !important; /* Smaller than default */
 }
 
-.post-list .post-excerpt, 
-.post-list p {
-    font-family: 'Crimson', Georgia, 'Times New Roman', serif !important;
-  // line-height: 1.6;
-}
-
 /* Post content text styling */
-.post-content {
+.post-content, .post-excerpt {
+  font-size:1.1em;
   font-family: 'Crimson', Georgia, 'Times New Roman', serif !important;
   // line-height: 1.6;
 }
