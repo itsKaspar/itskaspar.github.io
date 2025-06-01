@@ -46,9 +46,9 @@ a:hover {
 
 /* Site title styling */
 .site-title {
-  font-size: 3em;
+  font-size: 2.5em;
   margin-top: 0.5em !important;
-  margin-bottom: 0.2em !important;
+  margin-bottom: 0.1em !important;
   font-family: 'BerlinTypeBold', 'Helvetica Neue', 'Arial', sans-serif !important;
   color: inherit !important; /* Keeps original color, overrides green link styling */
 }
@@ -56,7 +56,7 @@ a:hover {
 .site-title:hover {
   color: inherit !important;
   text-decoration: underline !important;
-  text-decoration-thickness: 5px !important; /* Adjust thickness as needed */
+  text-decoration-thickness: 4px !important; /* Adjust thickness as needed */
 }
 
 /* Post title styling */
