@@ -112,3 +112,8 @@ a:hover {
 .social-table td:last-child a {
   font-size: inherit;
 }
+
+.footer-col-3 {
+  display: flex;
+  justify-content: flex-end; /* Force content to the right */
+}
