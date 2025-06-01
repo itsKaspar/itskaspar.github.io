@@ -17,11 +17,6 @@
   font-display: swap;
 }
 
-.mono {
-  font-family: 'Courier New', monospace;
-  font-size: 0.9em;
-}
-
 /* Your custom styles go here */
 body {
     font-family: 'BerlinType', 'Helvetica Neue', 'Arial', sans-serif !important;
@@ -82,13 +77,20 @@ a:hover {
 .social-table {
   border-collapse: separate;
   border-spacing: 0.5em 0.3em;
-  border: none; /* Remove table border */
-  margin-left: auto; /* Push table to the right */
+  border: none;
+  margin-left: auto; /* This should push it right */
+  background: none; /* Remove any background styling */
 }
 
 .social-table td {
-  border: none; /* Remove cell borders */
-  text-align: left; /* Keep content left-aligned */
+  border: none;
+  text-align: left;
+  padding: 0.1em 0.2em; /* Much smaller cell padding */
+  background: none !important; /* Remove alternating colors */
+}
+
+.social-table tr {
+  background: none !important; /* Remove row background colors */
 }
 
 .emoji-col {
@@ -105,10 +107,6 @@ a:hover {
 
 .social-table td:last-child {
   font-size: 0.9em;
-}
-
-.social-table td:last-child a {
-  font-size: inherit;
 }
 
 .social-table td:last-child a {
