@@ -81,6 +81,20 @@ a:hover {
   margin-bottom: 0 !important;
 }
 
+.site-footer .wrapper {
+  padding-bottom: 0 !important;
+  margin-bottom: 0 !important;
+}
+
+.footer-col-wrapper {
+  margin-bottom: 0 !important;
+}
+
+/* Remove any body/html bottom margins */
+body {
+  margin-bottom: 0 !important;
+}
+
 /* Social table styling */
 .social-table {
   border-collapse: separate;
