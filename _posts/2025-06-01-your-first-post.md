@@ -5,37 +5,24 @@ date: 2025-06-01
 ---
 Before 2021, to determine which site should be bombed, analysts would gather and process intelligence data beforehand. After investigation, they would pass on target locations to soldiers on the field. Working jointly, a group of analysts might suggest 50 sites a year<sup>1</sup>. But the lack of targets isn’t always an opportunity to stop bombing. During the 2014 Gaza war, an investigation stated that the Israeli Defence Forces (IDF) ran out of targets to bomb, but instead of stopping they decided to maintain pressure by bombing the same places multiple times, justifying the continuation of the war<sup>2</sup>.
 
-////////////////////
-
 As of April 2025, about 100 000 tons of bombs has been fired into the Gaza strip. To put this number into perspective, in 1945 the atomic bomb dropped on Hiroshima had a yield of 15 000 tons. For Gaza, that is almost 7 times more for an area 2,5x times smaller<sup>3</sup>. These numbers are far higher than previous conflicts within the same region. They can be explained by the usage of AI-assisted targeting software, which can suggest up to 100 targets a day<sup>4</sup>. That is a monumental increase from the 50 targets per year that a group of human analysts would provide before 20215. 
-
-///////////////////
 
 The IDF uses multiple AI systems in order to wage war. Including The Gospel which focuses on targetting buildings, and Lavender which produces targets based on a credit score of individual Palestinians. Both of these systems are thought to combine past surveillance data and make recommendations based on pattern matching. After producing a target, a human analyst is invited to verify it, and then decide whether to pass it on to soldiers through their smartphone application Pillars of Fire6 who then are in charge of leading the execution. In 2024, an operative working as an analyst, said in an interview to the Guardian “I would invest 20 seconds for each target at this stage, and do dozens of them every day. I had zero added-value as a human, apart from being a stamp of approval. It saved a lot of time”7.
 
-/////////////////
-
 The absence of thorough human verification poses a significant issue here, as the nature of AI systems is to provide content based on statistical and probability inference, rather than reasoning and factual evidence8. Many of the consequent concerns can be summed up in these two questions: are AI systems used in warfare actually used to replace human analysts, or are they extending the tools of war, by creating new means of waging war? Furthermore, who accounts for the casualties of war and the lives of civilians? From where we are today it seems like AI assisted targeting are another step into dehumanizing war on both sides, first its operatives and soldiers who become an extensive part in mechanized genocide, and consequentially, the people who are being targeted, reduced to statistical data before being assassinated.
-
-//////////////
 
 Through this process of dehumanization, accountability is diluted within the automatized warfare, and yet nothing of the bomb targeting nor their casualties are the produce of an accident9. When killing civilians, the AI targeting system is working exactly as intended. For each target, operatives get an indicator which resembles a traffic light system (green, orange, red) to know how many civilians lives are at risk before each strike. According to testimonies from intelligence officers, commanders also rely on predetermined and fixed collateral damage degree rather than in-depth proportionality assessments for each strike, with specific numbers: "15–20 civilians per 'low-ranking militant' and over 100 civilians for a more senior commander"10.
 
-//////////////////
-
 Unfortunately it does not stop here. As even AI systems at some point run out of targets to suggests. To pally to this, the IDF has the possibility to tweak their systems to lower the rating threshold of Lavender, consequentially marking more people as targets for strikes11. By lowering the indicator, they ultimately lower the bar of what the systems considers as a threat, possibly targeting people closer, such as friends, family, neighbours. AI systems in this context stop being assistants, they now act as factories that endlessly produce targets, creating more targets, disregarding old error rates. Starting at a 10% error rate measured at launch by the IDF, it is unknown what this rate is today. What is clear, is that AI-assisted targeting agent networks are becoming the new architecture of genocide. Israel has created its own proportionality standards and toyed with its thresholds in order to commit war crimes on their own terms.
 
-
-
-
-[1]  https://theconversation.com/israels-ai-can-produce-100-bombing-targets-a-day-in-gaza-is-this-the-future-of-war-219302
-[2] https://www.theguardian.com/world/2023/dec/01/the-gospel-how-israel-uses-ai-to-select-bombing-targets
-[3] https://republic.us/local-news/lt-colonel-william-astore-a-grim-reminder-about-gaza-100-kilotons-is-roughly-seven-hiroshimas/20517
-[4] https://reliefweb.int/report/occupied-palestinian-territory/national-early-recovery-and-reconstruction-plan-gaza
-[5] https://theconversation.com/israels-ai-can-produce-100-bombing-targets-a-day-in-gaza-is-this-the-future-of-war-219302
-[6] https://www.idf.il/%D7%90%D7%AA%D7%A8%D7%99-%D7%99%D7%97%D7%99%D7%93%D7%95%D7%AA/%D7%99%D7%95%D7%9E%D7%9F-%D7%94%D7%9E%D7%9C%D7%97%D7%9E%D7%94/%D7%9B%D7%9C-%D7%94%D7%9B%D7%AA%D7%91%D7%95%D7%AA/%D7%94%D7%A4%D7%A6%D7%95%D7%AA/%D7%9E%D7%9C%D7%97%D7%9E%D7%94-%D7%9E%D7%98%D7%A8%D7%95%D7%AA-%D7%A9%D7%94%D7%95%D7%AA%D7%A7%D7%A4%D7%95-%D7%9B%D7%95%D7%97%D7%95%D7%AA-%D7%A6%D7%94-%D7%9C-%D7%90%D7%92%D7%A3-%D7%94%D7%9E%D7%95%D7%93%D7%99%D7%A2%D7%99%D7%9F-%D7%97%D7%99%D7%9C-%D7%94%D7%90%D7%95%D7%95%D7%99%D7%A8-%D7%97%D7%99%D7%9C-%D7%94%D7%99%D7%9D/
-[7] https://www.theguardian.com/world/2024/apr/03/israel-gaza-ai-database-hamas-airstrikes
-[8] https://www.npr.org/2023/12/14/1218643254/israel-is-using-an-ai-system-to-find-targets-in-gaza-experts-say-its-just-the-st
-[9] https://www.972mag.com/mass-assassination-factory-israel-calculated-bombing-gaza/
-[10]  https://www.rusi.org/explore-our-research/publications/commentary/israel-defense-forces-use-ai-gaza-case-misplaced-purpose
-[11] https://www.972mag.com/lavender-ai-israeli-army-gaza/
+<sup>1</sup>  https://theconversation.com/israels-ai-can-produce-100-bombing-targets-a-day-in-gaza-is-this-the-future-of-war-219302
+<sup>2</sup> https://www.theguardian.com/world/2023/dec/01/the-gospel-how-israel-uses-ai-to-select-bombing-targets
+<sup>3</sup> https://republic.us/local-news/lt-colonel-william-astore-a-grim-reminder-about-gaza-100-kilotons-is-roughly-seven-hiroshimas/20517
+<sup>4</sup> https://reliefweb.int/report/occupied-palestinian-territory/national-early-recovery-and-reconstruction-plan-gaza
+<sup>5</sup> https://theconversation.com/israels-ai-can-produce-100-bombing-targets-a-day-in-gaza-is-this-the-future-of-war-219302
+<sup>6</sup> https://www.idf.il/%D7%90%D7%AA%D7%A8%D7%99-%D7%99%D7%97%D7%99%D7%93%D7%95%D7%AA/%D7%99%D7%95%D7%9E%D7%9F-%D7%94%D7%9E%D7%9C%D7%97%D7%9E%D7%94/%D7%9B%D7%9C-%D7%94%D7%9B%D7%AA%D7%91%D7%95%D7%AA/%D7%94%D7%A4%D7%A6%D7%95%D7%AA/%D7%9E%D7%9C%D7%97%D7%9E%D7%94-%D7%9E%D7%98%D7%A8%D7%95%D7%AA-%D7%A9%D7%94%D7%95%D7%AA%D7%A7%D7%A4%D7%95-%D7%9B%D7%95%D7%97%D7%95%D7%AA-%D7%A6%D7%94-%D7%9C-%D7%90%D7%92%D7%A3-%D7%94%D7%9E%D7%95%D7%93%D7%99%D7%A2%D7%99%D7%9F-%D7%97%D7%99%D7%9C-%D7%94%D7%90%D7%95%D7%95%D7%99%D7%A8-%D7%97%D7%99%D7%9C-%D7%94%D7%99%D7%9D/
+<sup>7</sup> https://www.theguardian.com/world/2024/apr/03/israel-gaza-ai-database-hamas-airstrikes
+<sup>8</sup> https://www.npr.org/2023/12/14/1218643254/israel-is-using-an-ai-system-to-find-targets-in-gaza-experts-say-its-just-the-st
+<sup>9</sup> https://www.972mag.com/mass-assassination-factory-israel-calculated-bombing-gaza/
+<sup>10</sup>  https://www.rusi.org/explore-our-research/publications/commentary/israel-defense-forces-use-ai-gaza-case-misplaced-purpose
+<sup>11</sup> https://www.972mag.com/lavender-ai-israeli-army-gaza/
