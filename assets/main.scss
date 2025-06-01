@@ -18,3 +18,30 @@ body {
   font-family: 'Courier New', monospace;
   font-size: 0.9em;
 }
+
+/* Footer layout adjustments */
+.footer-col-wrapper {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  max-width: $content-width; /* Uses the same width as your articles */
+  margin: 0 auto;
+}
+
+.footer-col-1, .footer-col-3 {
+  width: auto;
+  flex: 1;
+}
+
+.footer-col-1 {
+  text-align: left;
+}
+
+.footer-col-3 {
+  text-align: right;
+}
+
+.footer-col-3 .social-media-list {
+  margin: 0;
+  list-style: none;
+}
