@@ -45,6 +45,10 @@ a:hover {
   color: inherit !important; /* Keeps original color, overrides green link styling */
 }
 
+.site-title:hover {
+  color: inherit !important; /* Prevents hover color change */
+}
+
 /* Post title styling */
 .post-title {
   color: #666666 !important;
