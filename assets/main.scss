@@ -113,7 +113,26 @@ a:hover {
   font-size: inherit;
 }
 
+/* Footer layout adjustments */
+.footer-col-wrapper {
+  display: flex !important;
+  justify-content: space-between !important;
+  align-items: flex-start !important;
+  max-width: $content-width;
+  margin: 0 auto;
+}
+
+.footer-col-1, .footer-col-3 {
+  width: auto !important;
+  flex: 1 !important;
+}
+
+.footer-col-1 {
+  text-align: left;
+}
+
 .footer-col-3 {
   display: flex;
   justify-content: flex-end; /* Force content to the right */
+  text-align: right;
 }
