@@ -44,6 +44,14 @@ a:hover {
   color: #ff6b35 !important; /* Complementary red color - adjust as needed */
 }
 
+sup {
+  font-size: 0.6em !important; /* Much smaller superscript */
+  line-height: 0 !important; /* Prevents line height disruption */
+  vertical-align: super;
+  position: relative;
+  top: -0.3em; /* Fine-tune vertical position */
+}
+
 /* Site title styling */
 .site-title {
   font-size: 2.5em;
@@ -68,9 +76,10 @@ a:hover {
 }
 
 /* Post content text styling */
-.post-content, .post-excerpt {
+.post-content {
   font-size:1.1em;
   font-family: 'Crimson', Georgia, 'Times New Roman', serif !important;
+    line-height: 1.65 !important; /* Slightly more breathing room */
   // line-height: 1.6;
 }
 
