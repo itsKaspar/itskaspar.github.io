@@ -3,11 +3,11 @@ layout: post
 title: "The mechanics of Israeli bombing in the Gaza strip"
 date: 2025-06-01
 ---
-Before 2021, to determine which site should be bombed, analysts would gather and process intelligence data beforehand. After investigation, they would pass on target locations to soldiers on the field. Working jointly, a group of analysts might suggest 50 sites a year1. But the lack of targets isn’t always an opportunity to stop bombing. During the 2014 Gaza war, an investigation stated that the Israeli Defence Forces (IDF) ran out of targets to bomb, but instead of stopping they decided to maintain pressure by bombing the same places multiple times, justifying the continuation of the war2.
+Before 2021, to determine which site should be bombed, analysts would gather and process intelligence data beforehand. After investigation, they would pass on target locations to soldiers on the field. Working jointly, a group of analysts might suggest 50 sites a year<sup>1</sup>. But the lack of targets isn’t always an opportunity to stop bombing. During the 2014 Gaza war, an investigation stated that the Israeli Defence Forces (IDF) ran out of targets to bomb, but instead of stopping they decided to maintain pressure by bombing the same places multiple times, justifying the continuation of the war<sup>2</sup>.
 
 ////////////////////
 
-As of April 2025, about 100 000 tons of bombs has been fired into the Gaza strip. To put this number into perspective, in 1945 the atomic bomb dropped on Hiroshima had a yield of 15 000 tons. For Gaza, that is almost 7 times more for an area 2,5x times smaller3. These numbers are far higher than previous conflicts within the same region. They can be explained by the usage of AI-assisted targeting software, which can suggest up to 100 targets a day4. That is a monumental increase from the 50 targets per year that a group of human analysts would provide before 20215. 
+As of April 2025, about 100 000 tons of bombs has been fired into the Gaza strip. To put this number into perspective, in 1945 the atomic bomb dropped on Hiroshima had a yield of 15 000 tons. For Gaza, that is almost 7 times more for an area 2,5x times smaller<sup>3</sup>. These numbers are far higher than previous conflicts within the same region. They can be explained by the usage of AI-assisted targeting software, which can suggest up to 100 targets a day<sup>4</sup>. That is a monumental increase from the 50 targets per year that a group of human analysts would provide before 20215. 
 
 ///////////////////
 
