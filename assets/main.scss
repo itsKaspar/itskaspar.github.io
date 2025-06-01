@@ -17,6 +17,13 @@
   font-display: swap;
 }
 
+@font-face {
+  font-family: 'Crimson';
+  src: url('/fonts/CrimsonText-Regular.ttf') format('opentype');
+  font-weight: bold;
+  font-display: swap;
+}
+
 /* Your custom styles go here */
 body {
     font-family: 'BerlinType', 'Helvetica Neue', 'Arial', sans-serif !important;
@@ -51,19 +58,19 @@ a:hover {
 .post-title {
   color: #666666 !important;
   // font-family: 'BerlinTypeBold', 'Helvetica Neue', 'Arial', sans-serif !important;
-  font-family: Georgia, 'Times New Roman', serif !important;
+  font-family: 'Crimson', Georgia, 'Times New Roman', serif !important;
   font-size: 1.8rem !important; /* Smaller than default */
 }
 
 /* Post content text styling */
 .post-content {
-  font-family: Georgia, 'Times New Roman', serif !important;
+  font-family: 'Crimson', Georgia, 'Times New Roman', serif !important;
   // line-height: 1.6;
 }
 
 /* Home page post titles in list */
 .post-list .post-link {
-  font-family: Georgia, 'Times New Roman', serif !important;
+  font-family: 'Crimson', Georgia, 'Times New Roman', serif !important;
   // font-family: 'BerlinTypeBold', 'Helvetica Neue', 'Arial', sans-serif !important;
 }
 
