@@ -18,10 +18,51 @@
 }
 
 @font-face {
-  font-family: 'Crimson';
-  src: url('/fonts/CrimsonText-Regular.ttf') format('opentype');
+  font-family: 'BBBBaskervvol-Fondue';
+  src: url('/fonts/BBBBaskervvol-Fondue.otf') format('opentype');
   font-weight: bold;
   font-display: swap;
+}
+
+@font-face {
+  font-family: 'Adelphe-FructidorRegular';
+  src: url('/fonts/Adelphe-FructidorRegular.ttf') format('opentype');
+  font-weight: bold;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Adelphe-FructidorBold';
+  src: url('/fonts/Adelphe-FructidorBold.ttf') format('opentype');
+  font-weight: bold;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'BBB_Karrik';
+  src: url('/fonts/BBB_Karrik.otf') format('opentype');
+  font-weight: bold;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'DINdong';
+  src: url('/fonts/DINdong.otf') format('opentype');
+  font-weight: bold;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'NotoSerif-Regular';
+  src: url('/fonts/NotoSerif-Regular.ttf') format('truetype');
+  font-weight: bold;
+  font-display: swap;
+}
+
+
+/* fix */
+.site-header{
+  border-top:0;
 }
 
 html, body {
@@ -37,24 +78,36 @@ body {
 
 /* Link colors */
 a {
-  color: #28a745 !important; /* Your green color */
+  color: #82b398 !important; /* Your green color */
 }
 
 a:hover {
-  color: #ff6b35 !important; /* Complementary red color - adjust as needed */
+  color: #7d4c67 !important; /* Complementary red color - adjust as needed */
+}
+
+ul{
+  list-style-type:none;
+  text-align:left;
 }
 
 sup {
-  font-size: 0.6em !important; /* Much smaller superscript */
+  font-size: 0.8em !important; /* Much smaller superscript */
   line-height: 0 !important; /* Prevents line height disruption */
   vertical-align: super;
   position: relative;
   top: -0.3em; /* Fine-tune vertical position */
+  font-weight:bold;
+}
+
+iframe{
+  border:0;
+  margin-right:auto;
+  margin-left:auto;
 }
 
 /* Site title styling */
 .site-title {
-  font-size: 2.8em;
+  font-size: 2em;
   margin-top: 0.5em !important;
   margin-bottom: 0.1em !important;
   font-family: 'BerlinTypeBold', 'Helvetica Neue', 'Arial', sans-serif !important;
@@ -69,25 +122,32 @@ sup {
 
 /* Post title styling */
 .post-title {
-  color: #666666 !important;
-  // font-family: 'BerlinTypeBold', 'Helvetica Neue', 'Arial', sans-serif !important;
-  font-family: 'Crimson', Georgia, 'Times New Roman', serif !important;
-  font-size: 2.2rem !important; /* Smaller than default */
+  color: #bbb !important;
+  font-family: 'BerlinTypeBold', 'Helvetica Neue', 'Arial', sans-serif !important;
+    // font-family: 'BBBBaskervvol-Fondue', Georgia, 'Times New Roman', serif !important;  
+  font-size: 60px ; /* Smaller than default */
+  font-weight:bold;
 }
 
 /* Post content text styling */
 .post-content {
-  font-size:1.2em;
-  font-family: 'Crimson', Georgia, 'Times New Roman', serif !important;
-  line-height: 1.45 !important; /* Slightly more breathing room */
+  color:#333;
+  font-size:19px;
+  // font-family: 'BerlinType', 'Helvetica Neue', 'Arial', sans-serif !important;
+  font-family: 'NotoSerif-Regular', serif !important;
+  line-height: 1.6 !important; /* Slightly more breathing room */
   text-align:justify;
-  // line-height: 1.6;
+}
+
+.post-content p{
+  margin-bottom:80px;
 }
 
 /* Home page post titles in list */
 .post-list .post-link {
-  font-family: 'Crimson', Georgia, 'Times New Roman', serif !important;
-  // font-family: 'BerlinTypeBold', 'Helvetica Neue', 'Arial', sans-serif !important;
+  // font-family: 'BerlinType', 'Helvetica Neue', 'Arial', sans-serif !important;
+  font-family: 'BerlinTypeBold', 'Helvetica Neue', 'Arial', sans-serif !important;
+  // font-family: 'BBBBaskervvol-Fondue', Georgia, 'Times New Roman', serif !important;  
 }
 
 /* Footer spacing balance */
@@ -126,44 +186,15 @@ main {
   margin-bottom: 0 !important;
 }
 
-/* Social table styling */
-.social-table {
-  border-collapse: separate;
-  border-spacing: 0.5em 0.3em;
-  border: none;
-  margin-left: auto; /* This should push it right */
-  background: none; /* Remove any background styling */
-}
 
-.social-table td {
-  border: none;
-  text-align: left;
-  padding: 0.1em 0.2em; /* Much smaller cell padding */
-  background: none !important; /* Remove alternating colors */
-}
 
-.social-table tr {
-  background: none !important; /* Remove row background colors */
-}
-
-.emoji-col {
-  width: 1.5em;
-  text-align: center;
-}
 
 .mono {
   font-family: 'Courier New', monospace;
-  font-size: 0.9em;
-  width: 3em;
-  padding-right: 0.5em;
-}
-
-.social-table td:last-child {
-  font-size: 0.9em;
-}
-
-.social-table td:last-child a {
-  font-size: inherit;
+  font-weight:bold;
+  font-size: 0.6em;
+  // width: 3em;
+  // padding-right: 0.5em;
 }
 
 /* Footer layout adjustments */
@@ -175,17 +206,63 @@ main {
   margin: 0 auto;
 }
 
-.footer-col-1, .footer-col-3 {
-  width: auto !important;
-  flex: 1 !important;
-}
-
 .footer-col-1 {
-  text-align: left;
+  width: auto !important;
+  flex: 1.5 !important;
+  padding:0;
+  padding-top:10px;
+  padding-right:30px;
+    text-align: left;
+  // border:1px solid black;
+  // height:50px;
 }
 
-.footer-col-3 {
-  display: flex;
-  justify-content: flex-end; /* Force content to the right */
+.footer-col-1 p{
+  text-align:justify;
+}
+
+.footer-col-2{
+    display: flex;
+  flex:1;
+  width: auto !important;
+  // flex: 1 !important;
+    justify-content: flex-end; /* Force content to the right */
   text-align: right;
+}
+
+
+
+/* Social table styling */
+.social-table {
+  border-collapse: collapse;
+  // border-spacing: 0.5em 0.3em;
+  border: none;
+  // margin-left: auto; /* This should push it right */
+  // background: none; /* Remove any background styling */
+}
+
+.social-table td {
+  border: none;
+  // text-align: left;
+  padding: 0em 0.4em; /* Much smaller cell padding */
+  // background: none !important; /* Remove alternating colors */
+}
+
+.social-table tr {
+  background: none !important; /* Remove row background colors */
+}
+
+.social-table td:last-child a {
+  font-size: inherit;
+}
+
+.social-table tr td{
+  // border:1px solid red;
+  // height:2px;
+}
+
+.emoji-col {
+  width:10px;
+  text-align:center;
+  // text-align: center;
 }
